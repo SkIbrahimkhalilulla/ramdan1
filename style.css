@@ -11,6 +11,11 @@
     min-height: 100vh;
     background: url(eid2.jpg) no-repeat;
     background-size:cover ;
+  }img {
+  max-width: 100%;  /* Ensures the image does not exceed its container */
+  height: auto;  /* Maintains the aspect ratio */
+  display: block;  /* Prevents extra space below the image */
+  margin: 0 auto;  /* Centers the image */
   }
   .wrapper{
     width: 420px;
