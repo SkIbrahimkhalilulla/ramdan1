@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
-  background: url('eid11.jpg') no-repeat center center;
+  background: url('eid11.png') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   margin: 0; /* Remove default margin */
