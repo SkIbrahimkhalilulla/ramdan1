@@ -4,21 +4,30 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-  body {
-    background: url('image2.jpg') no-repeat center center;
-    background-size: contain; /* Adjusts the image without cutting */
-    background-attachment: fixed; /* Keeps it fixed while scrolling */
-  }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: url('image2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0; /* Remove default margin */
+}
 
-  .wrapper{
-    width: 420px;
-    background: transparent;
-    border: 2px solid rgba(255,255, 255, .2);
-    backdrop-filter: blur(10px);
-    color: #fff;
-    border-radius: 12px;
-    padding:30px 40px;
-  }
+.wrapper {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
   .wrapper h1{
     font-size: 36px;
     text-align: center;
