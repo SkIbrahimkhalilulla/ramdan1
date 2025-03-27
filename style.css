@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }@media (max-width: 768px) {
   body {
-    background: url('image1.jpg(1)') no-repeat center center;
+    background: url('image2.jpg') no-repeat center center;
     background-size: contain; /* Adjusts the image without cutting */
     background-attachment: fixed; /* Keeps it fixed while scrolling */
   }
